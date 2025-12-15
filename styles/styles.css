@@ -1,9 +1,13 @@
 html {
   font-family: "archer-pro", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 24px;
   color: #ed5dd9;
 }
 
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 24px;
+  }
+}
 header {
   text-align: center;
   font-size: 4rem;
