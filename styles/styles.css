@@ -1,12 +1,79 @@
 html {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "archer-pro", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  color: #ed5dd9;
 }
 
 header {
-  margin-top: 5em;
   text-align: center;
+  font-size: 4rem;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 400;
+  color: #fff;
+  background: #ED5DD9;
+  background: linear-gradient(330deg, #e84646, #ed5dd9, #ffaf38);
+  background-size: 250% 250%;
+  -webkit-animation: h1gradient 17s ease infinite;
+  -moz-animation: h1gradient 17s ease infinite;
+  animation: h1gradient 17s ease infinite;
+}
+
+@-webkit-keyframes h1gradient {
+  0% {
+    background-position: 0% 41%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 41%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 41%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 41%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 41%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+  100% {
+    background-position: 0% 41%;
+  }
+}
+header p {
+  font-family: "archer-thin-pro", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  line-height: 1.2;
 }
 
 footer {
   text-align: center;
+}
+
+#social-media-links {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+a {
+  color: #ed5dd9;
+}
+a:hover, a:focus {
+  color: #E84646;
 }
